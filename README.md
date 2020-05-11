@@ -7,3 +7,4 @@ Summary:-
 - I created a function that used cv2's detectMultiScale() method through the cascade classifiers to locate the faces/eyes/smiles and then used for-loops to imprint rectangles encompassing the area of which the feature was detected onto the return image.
 - Used cv2 library to control my webcam, convert the webcams image into grayscale so that the cascades could be implemented. Then use the converted grayscale image as the input to my function which then returned the colored image with the detection rectangles indicating the face, eyes, and smile.
 - Configurations of parameters (reduction scaling, minimum neighboring zones required) to achieve appropriate performance.
+![](testimages/opencvtest1.jpg)
